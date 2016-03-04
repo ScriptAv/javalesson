@@ -12,6 +12,7 @@ public class MainSwift {
             System.out.println("false");
         }
 
+
         int grade = 40;
         switch (grade) {
             case 5:

@@ -6,6 +6,7 @@ public class Dog {
         String s;
         s = aport(" ervgerv", 20);
         System.out.println(s);
+
     }
     static String aport(String it, int amount){
         String res;
