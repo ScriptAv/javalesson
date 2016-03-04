@@ -1,5 +1,6 @@
 /**
  * Created by script on 03.03.16.
+ * @author AvDeruno
  */
 public class Dog {
     public static void main(String[] args) {
