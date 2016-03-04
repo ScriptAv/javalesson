@@ -6,6 +6,6 @@ package ru.forkids;
 public class Main {
     public static void main(String[] args) {
         System.out.println("edrverv");
-        Main m = new Main;
+        Main m = new Main();
     }
 }
