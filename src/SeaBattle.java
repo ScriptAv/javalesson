@@ -24,6 +24,24 @@ public class SeaBattle {
             s = sca.nextLine();
             System.out.printf("вы ввели: %s\n", s);
 
+            int shoot = Integer.parseInt(s);
+            switch (cells[shoot]){
+                case '.':
+                    System.out.println("промох");
+                    cells[shoot] = '*';
+                    break;
+                case 'x':
+                    System.out.println("Супер! Корабль потоплен");
+                    cells[shoot] = '-';
+                    System.out.println(cells);
+                    break;
+                case '*':
+                    System.out.println("Уже стрелял");
+                    break;
+                default:
+                    System.out.println("ERROR");
+            }
+
         }while (cells[position] == 'x');
     }
 }
